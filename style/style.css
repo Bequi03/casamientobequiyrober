@@ -164,6 +164,48 @@
     height: 500px;
   }
 }
+.frase {
+  background-image: url(../imagenes/FONDO2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  height: 300px;
+}
+.frase .frase1 {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "imagenDress" "textoDress" "botonDress";
+}
+.frase .imagenDress,
+.frase .textoDress,
+.frase .botonDress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frase .imagenCbu {
+  display: flex;
+  grid-area: imagenDress;
+}
+.frase .textoDress {
+  grid-area: textoDress;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
 .fecha {
   letter-spacing: 5px;
   font-family: "Montserrat", sans-serif;
@@ -836,7 +878,7 @@
 }
 
 .agenda {
-  background-image: url(../imagenes/portada1.jpg);
+  background-image: url(../imagenes/FONDO2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

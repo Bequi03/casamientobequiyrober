@@ -10,8 +10,11 @@
     font-weight: normal;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
+    margin-right: 30px;
+    margin-left: 30px;
+
     .datosM {
         justify-content: center;
         align-items: center;
@@ -34,31 +37,27 @@
                 justify-content: center;
                 align-items: center;
             }
-            
 
-            h1.textoMusica {
+           .textoMusica {
                 display: flex;
                 grid-area: textoMusica;
                 justify-content: center;
                 align-items: center;
-               
+                font-size: 20px; // Tamaño de letra
             }
-
-            h2.textoMusica2 {
+            .textoMusica2 {
                 display: flex;
                 grid-area: textoMusica2;
                 justify-content: center;
                 align-items: center;
-                
+                font-size: 10px; // Tamaño de letra 
             }
-
-            .botonMusica {
+                    .botonMusica {
                 display: flex;
                 grid-area: botonMusica;
                 justify-content: center;
                 align-items: center;
             }
-            
         }
     }
 }

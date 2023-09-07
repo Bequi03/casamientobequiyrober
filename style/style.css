@@ -167,24 +167,27 @@
 .fecha {
   letter-spacing: 5px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
   font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .fecha1 {
   letter-spacing: 5px;
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 40px;
   font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .textoMensaje {
   letter-spacing: 5px;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .reloj {
@@ -315,20 +318,23 @@
   display: flex;
   grid-area: textoCeremonia;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
   letter-spacing: 3px;
-  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .textoIglesia {
   display: flex;
   grid-area: textoIglesia;
-  font-size: 20px;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .imagenFiesta {
@@ -339,28 +345,33 @@
 .textoCeremoniaFiesta {
   display: flex;
   grid-area: textoCeremoniaFiesta;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
   letter-spacing: 3px;
-  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .textoSalon {
   grid-area: textoSalon;
-  font-size: 20px;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
-.botonSalon {
+.botonSalon, .botonIglesia {
   grid-area: botonSalon;
   font-size: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
 }
 
 .galeria {
@@ -779,13 +790,16 @@
   font-family: "Montserrat", sans-serif;
 }
 .tarjetaPagos .tarjetas {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .tarjetaPagos .tarjetas .datosBancarios {
   display: grid;
+  font-size: 15px;
   justify-content: center;
   text-decoration: none;
   grid-template-columns: 1fr;
@@ -809,6 +823,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 5px;
   letter-spacing: 2px;
+  font-size: 20px;
 }
 .tarjetaPagos .tarjetas .botonCbu {
   display: flex;
@@ -833,7 +848,9 @@
   justify-content: center;
   text-align: center;
   font-weight: normal;
+  height: 400px;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
 }
 .agenda .datosA {
   margin-top: 50px;
@@ -849,6 +866,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "imagenAgenda" "textoAgenda" "botonAgenda" " " "imagenAgenda2" "textoAgenda2" "botonAgenda2";
+  margin-right: 30px;
 }
 .agenda .datosA .datosAgenda .imagenAgenda {
   display: flex;
@@ -859,6 +877,8 @@
   grid-area: textoAgenda;
   font-size: 10px;
   letter-spacing: 3px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .agenda .datosA .datosAgenda .botonAgenda {
   grid-area: botonAgenda;
@@ -875,6 +895,8 @@
   margin-bottom: 50px;
   grid-area: textoAgenda2;
   font-size: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .agenda .datosA .datosAgenda .botonAgenda2 {
   grid-area: botonAgenda2;
@@ -917,13 +939,13 @@
 }
 .tarjetaDress .dress .textoDress {
   grid-area: textoDress;
-  font-size: 10px;
+  font-size: 20px;
+  margin-top: 3px;
 }
 .tarjetaDress .dress .botonDress {
   grid-area: botonDress;
   margin-bottom: 50px;
   font-size: 40px;
-  font-size: 25px;
 }
 
 .musica {
@@ -940,6 +962,8 @@
   align-items: center;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .musica .datosM {
   justify-content: center;
@@ -959,17 +983,19 @@
   justify-content: center;
   align-items: center;
 }
-.musica .datosM .datosMusica h1.textoMusica {
+.musica .datosM .datosMusica .textoMusica {
   display: flex;
   grid-area: textoMusica;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
-.musica .datosM .datosMusica h2.textoMusica2 {
+.musica .datosM .datosMusica .textoMusica2 {
   display: flex;
   grid-area: textoMusica2;
   justify-content: center;
   align-items: center;
+  font-size: 10px;
 }
 .musica .datosM .datosMusica .botonMusica {
   display: flex;
@@ -991,7 +1017,7 @@
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  height: 500px;
+  height: 300px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
 }
@@ -1027,7 +1053,6 @@
     justify-content: center;
     text-align: center;
     font-weight: normal;
-    height: 500px;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 3px;
   }
@@ -1141,13 +1166,12 @@
     letter-spacing: 3px;
   }
   .piepagina .nombresImgPie {
-    height: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     grid-area: nombresImgPie;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
   }
   .piepagina h2.ryr {
     display: flex;
@@ -1156,9 +1180,8 @@
     align-items: center;
     color: white;
     justify-content: center;
-    margin-top: 80px;
     font-size: 15px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

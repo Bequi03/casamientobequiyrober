@@ -11,7 +11,7 @@
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  height: 500px;
+  height: 300px;
   font-family: 'Montserrat', sans-serif; 
 letter-spacing: 3px;
 
@@ -53,7 +53,7 @@ letter-spacing: 3px;
     justify-content: center;
     text-align: center;
     font-weight: normal;
-    height: 500px;
+  
     font-family: 'Montserrat', sans-serif; 
   letter-spacing: 3px;
   
@@ -181,13 +181,12 @@ letter-spacing: 3px;
   letter-spacing: 3px;
   
     .nombresImgPie {
-      height: 300px;
+      height: 500px;
       display: flex;
       flex-direction: column;
       grid-area: nombresImgPie;
       align-items: center;
       justify-content: center;
-      margin-top: 100px;
     }
   
     h2.ryr {
@@ -197,10 +196,9 @@ letter-spacing: 3px;
       align-items: center;
       color: white;
       justify-content: center;
-      margin-top: 80px;
       font-size:15px;
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 30px;
+      margin-left: 30px;
   
     }
   }}

@@ -11,7 +11,9 @@
     justify-content: center;
     text-align: center;
     font-weight: normal;
+    height: 400px;
     font-family: 'Montserrat', sans-serif; 
+  letter-spacing: 3px;
     
 
     .datosA {
@@ -20,7 +22,7 @@
       justify-content: center;
       text-align: center;
       flex-direction: column;
-   
+     
   
       .datosAgenda {
         display: grid;
@@ -36,7 +38,8 @@
           "imagenAgenda2"
           "textoAgenda2"
           "botonAgenda2";
-  
+          margin-right: 30px;
+         
         .imagenAgenda {
           display: flex;
           grid-area: imagenAgenda;
@@ -47,6 +50,8 @@
           grid-area: textoAgenda;
           font-size: 10px;
           letter-spacing: 3px;
+          margin-right: 30px;
+          margin-left: 30px;
         }
   
         .botonAgenda {
@@ -66,6 +71,8 @@
           margin-bottom: 50px;
           grid-area: textoAgenda2;
           font-size: 10px;
+          margin-right: 30px;
+          margin-left: 30px;
         }
   
         .botonAgenda2 {

@@ -44,7 +44,8 @@
 
         .textoDress {
             grid-area: textoDress;
-            font-size: 10px;
+            font-size: 20px;
+            margin-top: 3px;
         }
     
 
@@ -52,7 +53,7 @@
             grid-area: botonDress;
             margin-bottom: 50px;
             font-size: 40px;
-            font-size: 25px;
+         
         }
     }
 }

@@ -35,20 +35,24 @@
     display: flex;
     grid-area: textoCeremonia;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 20px;
     letter-spacing: 3px;
-    font-weight: bold;
+  
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
   }
   
   .textoIglesia {
     display: flex;
     grid-area: textoIglesia;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
   }
   
   .imagenFiesta {
@@ -59,30 +63,38 @@
   .textoCeremoniaFiesta {
     display: flex;
     grid-area: textoCeremoniaFiesta;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 20px;
     letter-spacing: 3px;
-    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
     
   }
   
   .textoSalon {
     grid-area: textoSalon;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
    
   }
   
-  .botonSalon {
+  .botonSalon, .botonIglesia {
     grid-area: botonSalon;
     font-size: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+
   }
   
 

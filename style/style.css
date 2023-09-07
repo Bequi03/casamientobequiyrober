@@ -230,17 +230,22 @@
 }
 
 @media (max-width: 500px) {
+  .reloj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   h1 {
-    font-size: 45px;
+    font-size: 15px;
   }
   .time {
     margin: 5px;
   }
   .time h2 {
-    font-size: 12px;
+    font-size: 20px;
   }
   .time small {
-    font-size: 20px;
+    font-size: 8px;
   }
 }
 .countdown-container {

@@ -70,26 +70,33 @@
   }}
 
 
-@media(max-width:500px) {
-  h1 {
-    font-size: 45px;
-  }
-
-  .time {
-    margin: 5px;
-
-    h2 {
-      font-size: 12px;
+  @media(max-width:500px) {
+    .reloj {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
     }
-
-    small {
-      font-size: 20px;
+    h1 {
+      font-size: 15px;
+    }
+  
+    .time {
+      margin: 5px;
+  
+      h2 {
+        
+        font-size: 20px;
+      }
+  
+      small {
+        font-size: 8px;
+      }
     }
   }
-}
-
-
-
+  
+  
+  
 
 
 

@@ -20,6 +20,7 @@
     height: 670px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
+    margin-bottom: 60px;
 }
 
 @media (max-width: 1199px) {
@@ -128,7 +129,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 670px;
+            height: 600px;
+           
         }}
     @media (max-width: 688px) {
         .portada {
@@ -149,5 +151,5 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 670px;
+            height: 500px;
         }}

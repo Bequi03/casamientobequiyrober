@@ -27,6 +27,7 @@
   height: 670px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 1199px) {
@@ -138,7 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
+    height: 600px;
   }
 }
 @media (max-width: 688px) {
@@ -160,7 +161,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
+    height: 500px;
   }
 }
 .fecha {
@@ -1010,4 +1011,154 @@
   color: white;
   justify-content: center;
   margin-top: 80px;
+}
+
+@media (max-width: 1000px) {
+  .piepagina {
+    background-image: url(../imagenes/portada2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
+  .piepagina .nombresImgPie {
+    display: flex;
+    flex-direction: column;
+    grid-area: nombresImgPie;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .piepagina .textoPie {
+    display: flex;
+    flex-direction: column;
+    grid-area: textoPie;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 898px) {
+  .piepagina {
+    background-image: url(../imagenes/portada2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
+  .piepagina .nombresImgPie {
+    display: flex;
+    flex-direction: column;
+    grid-area: nombresImgPie;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .piepagina .textoPie {
+    display: flex;
+    flex-direction: column;
+    grid-area: textoPie;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 779px) {
+  .piepagina {
+    background-image: url(../imagenes/portada2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
+  .piepagina .nombresImgPie {
+    display: flex;
+    flex-direction: column;
+    grid-area: nombresImgPie;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .piepagina .textoPie {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    grid-area: textoPie;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 550px) {
+  .piepagina {
+    background-image: url(../imagenes/portada2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
+  .piepagina .nombresImgPie {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    grid-area: nombresImgPie;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .piepagina h2.ryr {
+    display: flex;
+    flex-direction: column;
+    grid-area: textoPie;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

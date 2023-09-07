@@ -1,0 +1,58 @@
+.tarjetaDress{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+
+
+    .dress {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+
+        .datosDress {
+            display: grid;
+            justify-content: center;
+            text-decoration: none;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+            "imagenDress"
+            "textoDress"
+            "botonDress";
+
+        }
+
+        .imagenDress,
+        .textoDress,
+       .botonDress {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagenCbu {
+            display: flex;
+            grid-area: imagenDress;
+           
+        }
+
+        .textoDress {
+            grid-area: textoDress;
+            font-size: 10px;
+        }
+    
+
+        .botonDress {
+            grid-area: botonDress;
+            margin-bottom: 50px;
+            font-size: 40px;
+            font-size: 25px;
+        }
+    }
+}

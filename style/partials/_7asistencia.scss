@@ -1,0 +1,79 @@
+.agenda {
+    background-image: url(../imagenes/portada1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif; 
+    
+
+    .datosA {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+   
+  
+      .datosAgenda {
+        display: grid;
+        justify-content: center;
+        text-decoration: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "imagenAgenda"
+          "textoAgenda"
+          "botonAgenda"
+          " "
+          "imagenAgenda2"
+          "textoAgenda2"
+          "botonAgenda2";
+  
+        .imagenAgenda {
+          display: flex;
+          grid-area: imagenAgenda;
+        }
+  
+        .textoAgenda {
+          margin-bottom: 50px;
+          grid-area: textoAgenda;
+          font-size: 10px;
+          letter-spacing: 3px;
+        }
+  
+        .botonAgenda {
+          grid-area: botonAgenda;
+          margin-bottom: 50px;
+          font-size: 40px;
+        }
+  
+        .imagenAgenda2 {
+          display: flex;
+          grid-area: imagenAgenda2;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+  
+        .textoAgenda2 {
+          margin-bottom: 50px;
+          grid-area: textoAgenda2;
+          font-size: 10px;
+        }
+  
+        .botonAgenda2 {
+          grid-area: botonAgenda2;
+          margin-bottom: 50px;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  

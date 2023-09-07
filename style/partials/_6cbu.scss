@@ -1,0 +1,61 @@
+.tarjetaPagos {
+    
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+  
+    .tarjetas {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+
+
+        .datosBancarios {
+            display: grid;
+            justify-content: center;
+            text-decoration: none;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+                "imagenCbu"
+                "textoCbu"
+                "cbu";
+        }
+
+        .imagenCbu,
+        .textoCbu,
+        .botonCbu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                  }
+
+        .imagenCbu {
+            display: flex;
+            grid-area: imagenCbu;
+        }
+
+        .textoCbu {
+            display: flex;
+            grid-area: textoCbu;
+            font-family: 'Montserrat', sans-serif;
+            font-size:5px;
+            letter-spacing: 2px;
+        }
+
+        .botonCbu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                    grid-area: cbu;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 10px;
+                    letter-spacing: 2px;
+      }
+    }
+}

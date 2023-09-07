@@ -1,0 +1,1008 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.portada {
+  background-image: url(../imagenes/portada.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nombresImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 670px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 1199px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (max-width: 1100px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+  }
+}
+@media (max-width: 1000px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+  }
+}
+@media (max-width: 898px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+  }
+}
+@media (max-width: 779px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+  }
+}
+@media (max-width: 688px) {
+  .portada {
+    background-image: url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+  }
+  .nombresImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 670px;
+  }
+}
+.fecha {
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-weight: bold;
+}
+
+.fecha1 {
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-weight: bold;
+}
+
+.textoMensaje {
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.reloj {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 0;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.countdown {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: white;
+  display: flex;
+  transition: scale(2);
+  justify-content: center;
+  align-items: center;
+}
+.countdown .time {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  letter-spacing: 5px;
+}
+.countdown .time .h2 {
+  background-color: white;
+  display: flex;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+  }
+  .time h2 {
+    font-size: 12px;
+  }
+  .time small {
+    font-size: 20px;
+  }
+}
+.countdown-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clock-item .inner {
+  height: 0px;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.clock-canvas {
+  background-color: black;
+  border-radius: 50%;
+  height: 0px;
+  padding-bottom: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  width: 100%;
+}
+
+.ceremonia-fiesta.container.row {
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "imagenIglesia imagenFiesta" "textoCeremonia textoCeremoniaFiesta" "textoIglesia textoSalon" "botonIglesia botonSalon";
+}
+
+.imagenIglesia,
+.imagenFiesta,
+.textoCeremonia,
+.textoCeremoniaFiesta,
+.textoIglesia,
+.textoSalon,
+.botonIglesia,
+.botonSalon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.imagenIglesia {
+  grid-area: imagenIglesia;
+  margin-top: 30px;
+}
+
+.textoCeremonia {
+  display: flex;
+  grid-area: textoCeremonia;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.textoIglesia {
+  display: flex;
+  grid-area: textoIglesia;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.imagenFiesta {
+  grid-area: imagenFiesta;
+  margin-top: 30px;
+}
+
+.textoCeremoniaFiesta {
+  display: flex;
+  grid-area: textoCeremoniaFiesta;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.textoSalon {
+  grid-area: textoSalon;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.botonSalon {
+  grid-area: botonSalon;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.galeria {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.galeria h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.galeria .fotosPareja {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.galeria .foto1,
+.galeria .foto2,
+.galeria .foto3,
+.galeria .foto4,
+.galeria .foto5,
+.galeria .foto6,
+.galeria .foto7,
+.galeria .foto8,
+.galeria .foto9,
+.galeria .foto10,
+.galeria .foto11,
+.galeria .foto12 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+/* FLIP CARD */
+.flip-card {
+  width: 220px;
+  height: 220px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flip-card-back {
+  font-size: 1.25rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background-color: burlywood;
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+@media (max-width: 1199px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1100px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 898px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 779px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 688px) {
+  .galeria {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .galeria h4 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .galeria .fotosPareja {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12";
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: normal;
+    font-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .galeria .foto1,
+  .galeria .foto2,
+  .galeria .foto3,
+  .galeria .foto4,
+  .galeria .foto5,
+  .galeria .foto6,
+  .galeria .foto7,
+  .galeria .foto8,
+  .galeria .foto9,
+  .galeria .foto10,
+  .galeria .foto11,
+  .galeria .foto12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+.tarjetaPagos {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.tarjetaPagos .tarjetas {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tarjetaPagos .tarjetas .datosBancarios {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "imagenCbu" "textoCbu" "cbu";
+}
+.tarjetaPagos .tarjetas .imagenCbu,
+.tarjetaPagos .tarjetas .textoCbu,
+.tarjetaPagos .tarjetas .botonCbu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetaPagos .tarjetas .imagenCbu {
+  display: flex;
+  grid-area: imagenCbu;
+}
+.tarjetaPagos .tarjetas .textoCbu {
+  display: flex;
+  grid-area: textoCbu;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  letter-spacing: 2px;
+}
+.tarjetaPagos .tarjetas .botonCbu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: cbu;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.agenda {
+  background-image: url(../imagenes/portada1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+.agenda .datosA {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.agenda .datosA .datosAgenda {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "imagenAgenda" "textoAgenda" "botonAgenda" " " "imagenAgenda2" "textoAgenda2" "botonAgenda2";
+}
+.agenda .datosA .datosAgenda .imagenAgenda {
+  display: flex;
+  grid-area: imagenAgenda;
+}
+.agenda .datosA .datosAgenda .textoAgenda {
+  margin-bottom: 50px;
+  grid-area: textoAgenda;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+.agenda .datosA .datosAgenda .botonAgenda {
+  grid-area: botonAgenda;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.agenda .datosA .datosAgenda .imagenAgenda2 {
+  display: flex;
+  grid-area: imagenAgenda2;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.agenda .datosA .datosAgenda .textoAgenda2 {
+  margin-bottom: 50px;
+  grid-area: textoAgenda2;
+  font-size: 10px;
+}
+.agenda .datosA .datosAgenda .botonAgenda2 {
+  grid-area: botonAgenda2;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.tarjetaDress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.tarjetaDress .dress {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tarjetaDress .dress .datosDress {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "imagenDress" "textoDress" "botonDress";
+}
+.tarjetaDress .dress .imagenDress,
+.tarjetaDress .dress .textoDress,
+.tarjetaDress .dress .botonDress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetaDress .dress .imagenCbu {
+  display: flex;
+  grid-area: imagenDress;
+}
+.tarjetaDress .dress .textoDress {
+  grid-area: textoDress;
+  font-size: 10px;
+}
+.tarjetaDress .dress .botonDress {
+  grid-area: botonDress;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-size: 25px;
+}
+
+.musica {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+.musica .datosM {
+  justify-content: center;
+  align-items: center;
+}
+.musica .datosM .datosMusica {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "imagenMusica" "textoMusica" "textoMusica2" "botonMusica";
+}
+.musica .datosM .datosMusica .imagenMusica {
+  display: flex;
+  grid-area: imagenMusica;
+  justify-content: center;
+  align-items: center;
+}
+.musica .datosM .datosMusica h1.textoMusica {
+  display: flex;
+  grid-area: textoMusica;
+  justify-content: center;
+  align-items: center;
+}
+.musica .datosM .datosMusica h2.textoMusica2 {
+  display: flex;
+  grid-area: textoMusica2;
+  justify-content: center;
+  align-items: center;
+}
+.musica .datosM .datosMusica .botonMusica {
+  display: flex;
+  grid-area: botonMusica;
+  justify-content: center;
+  align-items: center;
+}
+
+.piepagina {
+  background-image: url(../imagenes/portada2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  height: 500px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+.piepagina .nombresImgPie {
+  display: flex;
+  flex-direction: column;
+  grid-area: nombresImgPie;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.piepagina .textoPie {
+  display: flex;
+  flex-direction: column;
+  grid-area: textoPie;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  margin-top: 80px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+.ceremonia-fiesta.container.row {
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "imagenIglesia imagenFiesta"
+      "textoCeremonia textoCeremoniaFiesta"
+      "textoIglesia textoSalon"
+      "botonIglesia botonSalon";
+  }
+  
+  .imagenIglesia,
+  .imagenFiesta,
+  .textoCeremonia,
+  .textoCeremoniaFiesta,
+  .textoIglesia,
+  .textoSalon,
+  .botonIglesia,
+  .botonSalon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .imagenIglesia {
+    grid-area: imagenIglesia;
+    margin-top: 30px;
+
+  }
+  
+  .textoCeremonia {
+    display: flex;
+    grid-area: textoCeremonia;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  
+  .textoIglesia {
+    display: flex;
+    grid-area: textoIglesia;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .imagenFiesta {
+    grid-area: imagenFiesta;
+    margin-top: 30px;
+  }
+  
+  .textoCeremoniaFiesta {
+    display: flex;
+    grid-area: textoCeremoniaFiesta;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-weight: bold;
+    
+  }
+  
+  .textoSalon {
+    grid-area: textoSalon;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+  
+  .botonSalon {
+    grid-area: botonSalon;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+

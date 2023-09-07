@@ -1,0 +1,64 @@
+.musica {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    letter-spacing: 3px;
+    .datosM {
+        justify-content: center;
+        align-items: center;
+
+        .datosMusica {
+            display: grid;
+            justify-content: center;
+            text-decoration: none;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "imagenMusica"
+                "textoMusica"
+                "textoMusica2"
+                "botonMusica";
+
+            .imagenMusica {
+                display: flex;
+                grid-area: imagenMusica;
+                justify-content: center;
+                align-items: center;
+            }
+            
+
+            h1.textoMusica {
+                display: flex;
+                grid-area: textoMusica;
+                justify-content: center;
+                align-items: center;
+               
+            }
+
+            h2.textoMusica2 {
+                display: flex;
+                grid-area: textoMusica2;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .botonMusica {
+                display: flex;
+                grid-area: botonMusica;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        }
+    }
+}

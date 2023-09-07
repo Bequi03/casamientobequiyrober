@@ -1,0 +1,144 @@
+.fecha {
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-weight: bold;
+}
+.fecha1 {
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-weight: bold;
+}
+.textoMensaje
+{
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+ 
+}
+
+.reloj {
+ background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+    height: auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+  
+  }
+  .countdown {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color:white;
+    display: flex;
+    transition: scale(2);
+    justify-content: center;
+    align-items: center;
+
+
+  .time {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    letter-spacing: 5px;
+
+
+    .h2 {
+      background-color: white;
+      display: flex;
+      font-weight: bold;
+      line-height: 1;
+      margin: 0 0 5px;
+       
+    }
+  }}
+
+
+@media(max-width:500px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .time {
+    margin: 5px;
+
+    h2 {
+      font-size: 12px;
+    }
+
+    small {
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.countdown-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clock-item .inner {
+  height: 0px;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.clock-canvas {
+  background-color: rgba($color: #000000, $alpha: 1.0);
+  border-radius: 50%;
+  height: 0px;
+  padding-bottom: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1);
+  width: 100%;
+}

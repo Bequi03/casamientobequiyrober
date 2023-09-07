@@ -790,7 +790,7 @@
   font-family: "Montserrat", sans-serif;
 }
 .tarjetaPagos .tarjetas {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -1017,7 +1017,7 @@
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  height: 300px;
+  height: 500px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
 }
@@ -1166,7 +1166,7 @@
     letter-spacing: 3px;
   }
   .piepagina .nombresImgPie {
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     grid-area: nombresImgPie;

@@ -35,7 +35,7 @@
 /* Media query para tabletas (por ejemplo, iPads) */
 @media (max-width: 1024px) {
   .portada {
-    background-size: cover;
+    height: 550px;
   }
   .nombresImg {
     height: 550px; /* Ajusta la altura para tabletas según tus necesidades */
@@ -44,7 +44,7 @@
 /* Media query para teléfonos celulares */
 @media (max-width: 767px) {
   .portada {
-    background-size: cover;
+    height: 550px;
   }
   .nombresImg {
     height: 400px; /* Ajusta la altura para teléfonos celulares según tus necesidades */

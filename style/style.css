@@ -32,131 +32,68 @@
 
 @media (max-width: 1199px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
-    font-family: "Montserrat", sans-serif;
+    height: 500px;
   }
 }
 @media (max-width: 1100px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
-    font-family: "Montserrat", sans-serif;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
+    height: 500px;
   }
 }
 @media (max-width: 1000px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
+    height: 500px;
   }
 }
 @media (max-width: 898px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 670px;
+    height: 500px;
   }
 }
 @media (max-width: 779px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
   }
 }
 @media (max-width: 688px) {
   .portada {
-    background-image: url(../imagenes/portada.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
-    width: 688px;
+    width: 100%; /* Ensure the image covers the entire width */
+    height: auto; /* Allow the image to scale proportionally */
   }
   .nombresImg {
     display: flex;

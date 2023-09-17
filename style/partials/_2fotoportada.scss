@@ -1,18 +1,12 @@
 /* Estilos base para pantallas grandes (por ejemplo, computadoras de escritorio) */
 .portada {
     background-image: url(../portada.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
 }
 .nombresImg {
     display: flex;
@@ -24,22 +18,4 @@
     margin-bottom: 60px;
 }
 
-/* Media query para tabletas (por ejemplo, iPads) */
-@media (max-width: 1024px) {
-    .portada {
-        height: 550px;
-        }
-    .nombresImg {
-        height: 550px; /* Ajusta la altura para tabletas según tus necesidades */
-    }
-}
 
-/* Media query para teléfonos celulares */
-@media (max-width: 767px) {
-    .portada {
-        height: 550px;
-        }
-    .nombresImg {
-        height: 400px; /* Ajusta la altura para teléfonos celulares según tus necesidades */
-    }
-}

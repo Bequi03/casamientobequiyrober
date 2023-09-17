@@ -32,74 +32,32 @@
 
 @media (max-width: 1199px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 @media (max-width: 1100px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 @media (max-width: 1000px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 @media (max-width: 898px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 @media (max-width: 779px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 @media (max-width: 688px) {
   .portada {
-    width: 100%; /* Ensure the image covers the entire width */
-    height: auto; /* Allow the image to scale proportionally */
-  }
-  .nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    background-size: cover;
   }
 }
 .frase {

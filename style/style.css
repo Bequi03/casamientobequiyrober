@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
@@ -10,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +33,24 @@
   margin-bottom: 60px;
 }
 
+/* Estilos para tabletas (por ejemplo, iPads) */
+@media (max-width: 1024px) {
+  .portada {
+    height: 100vh; /* Puedes ajustar esto según tus necesidades */
+  }
+  .nombresImg {
+    height: 400px; /* Puedes ajustar esto según tus necesidades */
+  }
+}
+/* Estilos para teléfonos celulares */
+@media (max-width: 767px) {
+  .portada {
+    height: 100vh; /* Puedes ajustar esto según tus necesidades */
+  }
+  .nombresImg {
+    height: 300px; /* Puedes ajustar esto según tus necesidades */
+  }
+}
 .frase {
   background-image: url(../imagenes/FONDO2.png);
   background-position: center;

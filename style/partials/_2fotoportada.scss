@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,4 +23,24 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     margin-bottom: 60px;
+}
+
+/* Estilos para tabletas (por ejemplo, iPads) */
+@media (max-width: 1024px) {
+    .portada {
+        height: 100vh; /* Puedes ajustar esto según tus necesidades */
+    }
+    .nombresImg {
+        height: 400px; /* Puedes ajustar esto según tus necesidades */
+    }
+}
+
+/* Estilos para teléfonos celulares */
+@media (max-width: 767px) {
+    .portada {
+        height: 100vh; /* Puedes ajustar esto según tus necesidades */
+    }
+    .nombresImg {
+        height: 300px; /* Puedes ajustar esto según tus necesidades */
+    }
 }

@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Estilos base para pantallas grandes (por ejemplo, computadoras de escritorio) */
 .portada {
   background-image: url(../portada.jpg);
   background-position: center;
@@ -19,8 +20,6 @@
   text-align: center;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
-  min-width: 320px;
-  max-width: 1300px;
 }
 
 .nombresImg {
@@ -33,22 +32,22 @@
   margin-bottom: 60px;
 }
 
-/* Estilos para tabletas (por ejemplo, iPads) */
+/* Media query para tabletas (por ejemplo, iPads) */
 @media (max-width: 1024px) {
   .portada {
-    height: 100vh; /* Puedes ajustar esto según tus necesidades */
+    height: 80vh; /* Ajusta la altura para tabletas según tus necesidades */
   }
   .nombresImg {
-    height: 400px; /* Puedes ajustar esto según tus necesidades */
+    height: 450px; /* Ajusta la altura para tabletas según tus necesidades */
   }
 }
-/* Estilos para teléfonos celulares */
+/* Media query para teléfonos celulares */
 @media (max-width: 767px) {
   .portada {
-    height: 100vh; /* Puedes ajustar esto según tus necesidades */
+    height: 60vh; /* Ajusta la altura para teléfonos celulares según tus necesidades */
   }
   .nombresImg {
-    height: 300px; /* Puedes ajustar esto según tus necesidades */
+    height: 300px; /* Ajusta la altura para teléfonos celulares según tus necesidades */
   }
 }
 .frase {

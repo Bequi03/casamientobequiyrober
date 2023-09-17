@@ -27,19 +27,19 @@
 /* Media query para tabletas (por ejemplo, iPads) */
 @media (max-width: 1024px) {
     .portada {
-        height: 80vh; /* Ajusta la altura para tabletas según tus necesidades */
-    }
+            background-size: cover;
+        }
     .nombresImg {
-        height: 450px; /* Ajusta la altura para tabletas según tus necesidades */
+        height: 550px; /* Ajusta la altura para tabletas según tus necesidades */
     }
 }
 
 /* Media query para teléfonos celulares */
 @media (max-width: 767px) {
     .portada {
-        height: 60vh; /* Ajusta la altura para teléfonos celulares según tus necesidades */
-    }
+            background-size: cover;
+        }
     .nombresImg {
-        height: 300px; /* Ajusta la altura para teléfonos celulares según tus necesidades */
+        height: 400px; /* Ajusta la altura para teléfonos celulares según tus necesidades */
     }
 }

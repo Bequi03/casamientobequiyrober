@@ -1,4 +1,4 @@
-/* Estilos base para pantallas grandes (por ejemplo, computadoras de escritorio) */
+/* Estilos base para todas las pantallas */
 .portada {
     background-image: url(/portada.jpg);
     background-position: center;
@@ -12,7 +12,7 @@
     text-align: center;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
-    height: 670px; /* Altura predeterminada */
+    height: 670px; /* Altura predeterminada para pantallas grandes */
 }
 
 .nombresImg {
@@ -25,9 +25,16 @@
     margin-bottom: 60px;
 }
 
-/* Media query para dispositivos iOS (iPhone, iPad) */
-@media only screen and (max-device-width: 1024px) {
+/* Media query específica para dispositivos iOS (iPhone, iPad) */
+@media only screen and (max-width: 1024px) {
     .portada {
         height: auto; /* Ajuste automático de altura para dispositivos iOS */
+    }
+}
+
+/* Media query para pantallas pequeñas (ajustable según tus necesidades) */
+@media (max-width: 767px) {
+    .portada {
+        height: auto; /* Ajuste automático de altura para pantallas pequeñas */
     }
 }

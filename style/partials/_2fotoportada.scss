@@ -3,7 +3,7 @@
     background-image: url(../portadapng.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-attachment: fixed;
     height: 100vh;
     display: flex;
@@ -12,8 +12,6 @@
     justify-content: center;
     text-align: center;
     font-weight: normal;
-}
-
 .nombresImg {
     display: flex;
     align-items: center;
@@ -21,7 +19,7 @@
     height: 670px;
     letter-spacing: 3px;
     margin-bottom: 60px;
-}
+}}
 
 /* Media query específica para dispositivos iOS (iPhone, iPad) */
 @media only screen and (max-width: 1024px) {

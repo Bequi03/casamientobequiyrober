@@ -10,7 +10,7 @@
   background-image: url(../portada.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto; /* Cambiar a porcentaje */
   background-attachment: fixed;
   height: 100vh;
   display: flex;
@@ -25,9 +25,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 670px;
+  height: 50%; /* Cambiar a porcentaje */
   letter-spacing: 3px;
-  margin-bottom: 60px;
+  margin-bottom: 5%; /* Cambiar a porcentaje */
 }
 
 /* Media query específica para dispositivos iOS (iPhone, iPad) */

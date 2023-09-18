@@ -29,3 +29,13 @@
         height: auto; /* Ajuste automático de altura para dispositivos iOS */
     }
 }
+
+/* Media query específica para dispositivos iOS (iPhone en orientación vertical) */
+@media only screen and (max-width: 375px) {
+    .portada {
+        height: auto; /* Ajuste automático de altura para dispositivos iOS */
+    }
+    .nombresImg {
+        height: auto; /* Ajuste automático de altura para dispositivos iOS */
+    }
+}

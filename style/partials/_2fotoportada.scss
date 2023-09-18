@@ -1,38 +1,23 @@
-/* Estilos base para todas las pantallas */
 .portada {
     background-image: url(../portadapng.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-weight: normal;
-.nombresImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 670px;
-    letter-spacing: 3px;
-    margin-bottom: 60px;
-}}
 
-/* Media query específica para dispositivos iOS (iPhone, iPad) */
-@media only screen and (max-width: 1024px) {
-    .portada {
-        height: auto; /* Ajuste automático de altura para dispositivos iOS */
-    }
-}
-
-/* Media query específica para dispositivos iOS (iPhone en orientación vertical) */
-@media only screen and (max-width: 375px) {
-    .portada {
-        height: auto; /* Ajuste automático de altura para dispositivos iOS */
-    }
     .nombresImg {
-        height: auto; /* Ajuste automático de altura para dispositivos iOS */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 670px;
+        letter-spacing: 3px;
+        margin-bottom: 60px;
     }
 }

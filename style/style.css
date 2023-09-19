@@ -38,7 +38,7 @@
   }
 }
 .frase {
-  background-image: url(../imagenes/FONDO2.png);
+  background-image: url(../Rebeca.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -749,7 +749,7 @@
 }
 
 .agenda {
-  background-image: url(../imagenes/FONDO2.png);
+  background-image: url(../Rebeca.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -863,7 +863,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -34,6 +34,12 @@
   margin-bottom: 60px;
 }
 
+@media only screen and (max-width: 375px) {
+  .portada {
+    height: 400px;
+    width: 400px;
+  }
+}
 .frase {
   background-image: url(../imagenes/FONDO2.png);
   background-position: center;

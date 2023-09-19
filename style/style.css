@@ -21,8 +21,7 @@
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
 }
-
-.nombresImg {
+.portada .nombresImg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +30,18 @@
   letter-spacing: 3px;
   margin-bottom: 60px;
 }
+@media only screen and (max-width: 375px) {
+  .portada {
+    height: auto;
+    padding: 20px;
+    background-attachment: scroll;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .portada .nombresImg {
+    height: auto;
+  }
+}
 
 .frase {
   background-image: url(../imagenes/FONDO2.png);
@@ -38,7 +49,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +57,7 @@
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
+  height: 300px;
 }
 .frase .frase1 {
   display: grid;
@@ -918,13 +929,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-weight: normal;
+  height: 500px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
 }

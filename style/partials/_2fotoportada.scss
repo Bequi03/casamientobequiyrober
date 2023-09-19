@@ -3,6 +3,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     display: flex;
@@ -21,17 +24,6 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     margin-bottom: 60px;
-}
+}}
 
-    // Media query para iPhone (ancho de pantalla máximo típico de 375px)
-    @media only screen and (max-width: 375px) {
-        height: 380; // Ajuste automático de altura para dispositivos móviles
-        padding: 20px; // Agrega espacio alrededor del contenido
-        background-attachment: scroll; // Cambia la propiedad de attachment para dispositivos móviles
-        font-size: 16px; // Cambia el tamaño de fuente para dispositivos móviles
-        line-height: 1.4; // Ajusta la altura de línea
-        .nombresImg {
-            height: auto; // Ajuste automático de altura para dispositivos móviles
-        }
-    }
-}
+  

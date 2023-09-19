@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 375px) {
   .portada {
-    height: auto;
+    height: 380;
     padding: 20px;
     background-attachment: scroll;
     font-size: 16px;

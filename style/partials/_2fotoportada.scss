@@ -25,7 +25,7 @@
 
     // Media query para iPhone (ancho de pantalla máximo típico de 375px)
     @media only screen and (max-width: 375px) {
-        height: auto; // Ajuste automático de altura para dispositivos móviles
+        height: 380; // Ajuste automático de altura para dispositivos móviles
         padding: 20px; // Agrega espacio alrededor del contenido
         background-attachment: scroll; // Cambia la propiedad de attachment para dispositivos móviles
         font-size: 16px; // Cambia el tamaño de fuente para dispositivos móviles

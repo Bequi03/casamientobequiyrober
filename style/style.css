@@ -15,7 +15,7 @@
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

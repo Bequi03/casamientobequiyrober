@@ -24,4 +24,4 @@ function updateCountdown(){
     segundos.innerHTML = s < 10 ? "0" + s : s;
 }
 
-setInterval(updateCountdown, 1000);
+setInterval(updateCountdown, 1000);,
